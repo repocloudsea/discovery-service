@@ -1,5 +1,4 @@
 FROM frolvlad/alpine-oraclejdk8:slim
-VOLUME /tmp
 ADD cls-discovery-service-0.0.1-SNAPSHOT.jar cls-discovery-service-0.0.1-SNAPSHOT.jar
 RUN sh -c 'touch /cls-discovery-service-0.0.1-SNAPSHOT.jar'
 ENV JAVA_OPTS=""
